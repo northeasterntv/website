@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <style>
+
+    div {
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+      text-align: center;
+    }
+
+    .container {
+      max-height: 1600px;
+      max-width: 980px;
+    }
+
+    .tableDiv {
+      max-height: 500px;
+      max-width: 980px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-family: 'Avenir Black', 'Arial Black', 'sans-serif';
+      font-size: 25px;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      font-family: 'Avenir Black', 'Arial Black', 'sans-serif';
+      padding: 12px;
+    }
+
+    th {
+      width: 300px;
+      overflow-wrap: break-word;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Spring 2020: Hosted by David Scheckel & Neal Cox</h1>
+    <div class="tableDiv">
+
+      <table>
+        <tr>
+          <th>Award</th>
+          <th>Winner</th>
+          <th>Video</th>
+        </tr>
+        <tr>
+          <th>Best in NUTV</th>
+          <th>Ilana Gersten</th>
+          <th>Northeastern Protests in Support for Iranian Student</th>
+        </tr>
+        <tr>
+          <th>Audience Choice Award</th>
+          <th>Ilana Gersten & Zach Horowitz</th>
+          <th>Primal Scream Fall 2019</th>
+        </tr>
+        <tr>
+          <th>MVP</th>
+          <th>Drew Caporale</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Best in News</th>
+          <th>Gabby Riberdy & Makayla Virdi</th>
+          <th>B-List Breakdown - Debby Ryan: From Critical Failure to Critical Confusion</th>
+        </tr>
+        <tr>
+          <th>Best in Sports</th>
+          <th>Cassie Kuchma</th>
+          <th>Pufferfish 2: Is This Adam Sandler?!?!</th>
+        </tr>
+        <tr>
+          <th>Best in Entertainment</th>
+          <th>Drew Caporale</th>
+          <th>Lust for Life</th>
+        </tr>
+        <tr>
+          <th>Rookie of the Semester (News)</th>
+          <th>Nick Stolte</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Rookie of the Semester (Sports)</th>
+          <th>Tommy DiMartino</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Rookie of the Semester (Entertainment)</th>
+          <th>Yash Kulkarni & Shreya Bassireddy</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Best Editing</th>
+          <th>Nick Stolte & Eshaan Parekh</th>
+          <th>NUTV Cribs: Stetson East</th>
+        </tr>
+        <tr>
+          <th>Best Director</th>
+          <th>Drew Caporale</th>
+          <th>Lust for Life</th>
+        </tr>
+        <tr>
+          <th>Best Writing</th>
+          <th>Gabby Riberdy</th>
+          <th>B-List Breakdown - Debby Ryan: From Critical Failure to Critical Confusion</th>
+        </tr>
+        <tr>
+          <th>Best Producing</th>
+          <th>Drew Caporale</th>
+          <th>Lust for Life</th>
+        </tr>
+        <tr>
+          <th>Best Cinematography</th>
+          <th>Drew Caporale</th>
+          <th>Breaking the Habit</th>
+        </tr>
+        <tr>
+          <th>Best Report</th>
+          <th>Courtney LaPointe</th>
+          <th>Women's Hockey Postseason Update</th>
+        </tr>
+        <tr>
+          <th>Best Reporter</th>
+          <th>Christine Chan</th>
+          <th>Grammy's MOS</th>
+        </tr>
+        <tr>
+          <th>Best Sound</th>
+          <th>Connor Friday & Drew Caporale</th>
+          <th>Unofficial Newz Doez Reviewz: iii: 2019 & Boston First Night</th>
+        </tr>
+        <tr>
+          <th>Best Interview</th>
+          <th>Katy Doherty, Christine Chan, Grace Maderosian</th>
+          <th>Valentine's Day MOS</th>
+        </tr>
+        <tr>
+          <th>Best Anchor (News)</th>
+          <th>Arden Heminway</th>
+          <th>The Husky Update - January 27th, 2020</th>
+        </tr>
+        <tr>
+          <th>Best Anchor (Sports)</th>
+          <th>Tom Gambardella & David Scheckel</th>
+          <th>NBA Trade Deadline w/Tom & Dave</th>
+        </tr>
+        <tr>
+          <th>Best Rapid Fire Anchor</th>
+          <th>Martha Gamy</th>
+          <th>The Husky Update - January 27th, 2020</th>
+        </tr>
+        <tr>
+          <th>Best Coverage</th>
+          <th>Makayla Virdi, Ilana Gersten, Owen Guinessey, Martha Gamy</th>
+          <th>Super Tuesday Live Coverage</th>
+        </tr>
+        <tr>
+          <th>Best Concept (News)</th>
+          <th>Gabby Riberdy & Makayla Virdi</th>
+          <th>B-List Breakdown</th>
+        </tr>
+        <tr>
+          <th>Best Concept (Sports)</th>
+          <th>Tom Gambardella</th>
+          <th>Offseasonal Affective Disorder</th>
+        </tr>
+        <tr>
+          <th>Best Concept (Entertainment)</th>
+          <th>James Valdez & Zach Horowitz</th>
+          <th>Inagural Ketchup Baseball Home Run Derby</th>
+        </tr>
+        <tr>
+          <th>Kim Terrizi Award for Best Actress</th>
+          <th>Carly Tamer</th>
+          <th>Cyber Warriors</th>
+        </tr>
+        <tr>
+          <th>Best Actor</th>
+          <th>Tom Gambardella</th>
+          <th>Remain Silent</th>
+        </tr>
+        <tr>
+          <th>Best Supporting Actress</th>
+          <th>Himani Seth</th>
+          <th>2020 Vision</th>
+        </tr>
+        <tr>
+          <th>Best Supporting Actor</th>
+          <th>Owen Guinessey</th>
+          <th>2020 Vision</th>
+        </tr>
+        <tr>
+          <th>Best Ensemble</th>
+          <th>Yash Kulkarni, Makayla Virdi, Tommy DiMartino, Brady Joyce, Brittnee Braun, Gaby Trinidad, Erin Mitt,
+            Christine Chan, Nick Stolte</th>
+          <th>The Cooper Show</th>
+        </tr>
+        <tr>
+          <th>Unsung Hero (News)</th>
+          <th>Ilana Gersten</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Unsung Hero (Sports)</th>
+          <th>Carly Tamer</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Unsung Hero (Entertainment)</th>
+          <th>Calvary Dominique</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Best Boy</th>
+          <th>Connor Friday</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Heart & Hustle</th>
+          <th>Courtney LaPointe</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Dynamic Duo</th>
+          <th>Gabby Riberdy & Makayla Virdi</th>
+          <th></th>
+        </tr>
+      </table>
+
+    </div>
+
+    <h1>Fall 2019: Hosted by Laura Acosta & Olivia Whitaker</h1>
+    <div class="tableDiv">
+      <table>
+        <tr>
+          <th>Award</th>
+          <th>Winner</th>
+          <th>Video</th>
+        </tr>
+        <tr>
+          <th>Best in NUTV</th>
+          <th>Emma Ingallinera, Natalie D'Ambra, Tom Gambardella, Zach Horowitz, Michael Henshaw, Olivia Whitaker, Carly Tamer, Laura Acosta, Katy Doherty, Drew Caporale, Grace Maderosian, Allan Festekjian, Cassie Kuchma, Neal Cox, Bryce Parazin, James Valdez, Christine Chan</th>
+          <th>Field Day 2019</th>
+        </tr>
+        <tr>
+          <th>Audience Choice Award</th>
+          <th>Drew Caporale & Neal Cox</th>
+          <th>Underwear Run 2019</th>
+        </tr>
+        <tr>
+          <th>MVP</th>
+          <th>Emma Ingallinera</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Best in News</th>
+          <th>Jack Sinclair & Zach Horowitz</th>
+          <th>NUTV Cribs: Kerr Hall</th>
+        </tr>
+        <tr>
+          <th>Best in Sports</th>
+          <th>Cassie Kuchma & Michael Henshaw</th>
+          <th>Do Northeastern Students Know About Northeastern Sports? | Pufferfish Edition</th>
+        </tr>
+        <tr>
+          <th>Best in Entertainment</th>
+          <th>Natalie D'Ambra, Neal Cox, Christine Chan, Zach Horowitz, Laura Acosta, Drew Caporale, Tom Gambardella, Hailey Otero, Cassie Kuchma</th>
+          <th>Turning 20</th>
+        </tr>
+        <tr>
+          <th>Rookie of the Semester (News)</th>
+          <th>Christine Chan</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Rookie of the Semester (Sports)</th>
+          <th>Carly Tamer</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Rookie of the Semester (Entertainment)</th>
+          <th>Owen Guinessey & Natalie D'Ambra</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Best Editing</th>
+          <th>Brittnee Braun</th>
+          <th>The Great NUTV Make-off</th>
+        </tr>
+        <tr>
+          <th>Best Director</th>
+          <th>Neal Cox</th>
+          <th>Double Date</th>
+        </tr>
+        <tr>
+          <th>Best Writing</th>
+          <th>Drew Caporale</th>
+          <th>Queen of Spades: ReDeux 2 the Death</th>
+        </tr>
+        <tr>
+          <th>Best Producing</th>
+          <th>Connor Friday & Hailey Otero</th>
+          <th>Comings and Goings</th>
+        </tr>
+        <tr>
+          <th>Best Cinematography</th>
+          <th>David Scheckel</th>
+          <th>Falling</th>
+        </tr>
+        <tr>
+          <th>Best Report</th>
+          <th>Ilana Gersten</th>
+          <th>Husky Hunt</th>
+        </tr>
+        <tr>
+          <th>Best Reporter</th>
+          <th>Martha Gamy</th>
+          <th>Massachusetts Independent Comics Expo 2019</th>
+        </tr>
+        <tr>
+          <th>Best Anchor (News)</th>
+          <th>Himani Seth</th>
+          <th>The Husky Update - October 28th, 2019</th>
+        </tr>
+        <tr>
+          <th>Best Anchor (Sports)</th>
+          <th>Tom Gambardella</th>
+          <th>This Week in Backup Quarterbacks (10/3/19)</th>
+        </tr>
+        <tr>
+          <th>Best Rapid Fire Anchor</th>
+          <th>Makayla Virdi</th>
+          <th>The Husky Update - November 25th, 2019</th>
+        </tr>
+        <tr>
+          <th>Best Coverage</th>
+          <th>Michael Henshaw & Cassie Kuchma</th>
+          <th>PASSER RATING EXPLAINED, and why baseball is better</th>
+        </tr>
+        <tr>
+          <th>Best Concept (News)</th>
+          <th>Zach Horowitz</th>
+          <th>NUTV Game Night</th>
+        </tr>
+        <tr>
+          <th>Best Concept (Sports)</th>
+          <th>Olivia Whitaker</th>
+          <th>Sportstrology</th>
+        </tr>
+        <tr>
+          <th>Best Concept (Entertainment)</th>
+          <th>Bekah Hess</th>
+          <th>Le C200</th>
+        </tr>
+        <tr>
+          <th>Kim Terrizi Award for Best Actress</th>
+          <th>Laura Acosta</th>
+          <th>Euphoria Daytime Glam Glitter Glow Easy Makeup Tutorial</th>
+        </tr>
+        <tr>
+          <th>Best Actor</th>
+          <th>David Scheckel</th>
+          <th>Extra Room</th>
+        </tr>
+        <tr>
+          <th>Best Supporting Actress</th>
+          <th>Christine Chan</th>
+          <th>Comings and Goings</th>
+        </tr>
+        <tr>
+          <th>Best Supporting Actor</th>
+          <th>Neal Cox</th>
+          <th>Finding Florida Man</th>
+        </tr>
+        <tr>
+          <th>Best Ensemble</th>
+          <th>Connor Friday, Christine Chan, Martha Gamy, Brittnee Braun, Zach Horowitz, Ilana Gersten, Makayla Virdi</th>
+          <th>News Does Reviews: Cupcakes</th>
+        </tr>
+        <tr>
+          <th>Unsung Hero (News)</th>
+          <th>Saakhi Singh</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Unsung Hero (Sports)</th>
+          <th>Cassie Kuchma</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Unsung Hero (Entertainment)</th>
+          <th>Neal Cox</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Heart & Hustle</th>
+          <th>Olivia Whitaker</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Dynamic Duo</th>
+          <th>Laura Acosta & Bekah Hess</th>
+          <th></th>
+      </table>
+    </div>
+  </div>
+
+</body>
+
+</html>
